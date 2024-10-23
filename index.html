@@ -2,12 +2,14 @@ html
 
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проста форма</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <form id="contactForm" onsubmit="return validateForm()">
@@ -18,17 +20,27 @@ html
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" placeholder="Введіть вашу електронну адресу">
 
-            <label for="message">Повідомлення:</label>
+            <label for="message">Введіть ваше повідомлення:</label>
             <textarea id="message" name="message" placeholder="Напишіть ваше повідомлення"></textarea>
 
             <button type="submit">Надіслати</button>
+            <p>Зміни в гілці Анур'євої</p>
         </form>
 
         <div id="error" class="error-message"></div>
     </div>
     <p>This is a change in the Yarmoliuk branch.</p>
-   
+    <p>This is a change in the main branch.</p>
+
 
     <script src="script.js"></script>
+
+    
+    <p>This is a change in the main branch.</p>
+   
+
+
+
 </body>
+
 </html>
